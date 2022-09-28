@@ -1,0 +1,45 @@
+
+.my-navbar{
+  background-color: var(--color-main);
+  color: white;
+  font-weight: 500;
+}
+.btn-ct{
+  display: flex;
+  gap:5px;
+  font-size: 13px;
+}
+.btn-ct span{
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.cart-lg{
+  margin:0 20px;
+
+}
+.btn-btn{
+  width: 100px;
+  background-color: black;
+  color:white;
+  border: 1px solid black;
+  outline:none !important;
+  padding:8px;
+  border-radius: 5px;
+}
+.btn-btn:hover{
+  background-color: var(--color-main);
+  color:black ;
+  border:1px solid black ;
+  transition: 0.3s all ease-in-out ;
+ 
+}
+@media screen and (max-width: 768px){
+  .cart-lg{
+    margin:20px 0 !important;
+  
+  }
+  .search-prd{
+    margin-top:10px;
+  }
+}
+

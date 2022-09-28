@@ -1,0 +1,158 @@
+
+.wrapper {
+    max-width: 500px;
+    margin: 10px auto;
+    margin-top:2rem !important;
+}
+
+.wrapper .card {
+    max-width: 400px;
+    min-height: 450px;
+    margin: 10px;
+    background-color: var(--color-main);
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+
+.wrapper .card a {
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper .card a:hover {
+    color: black;
+}
+
+.wrapper .card .input-field {
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    padding: 0.3rem;
+}
+
+.wrapper .card .input-field input {
+    background-color: inherit;
+}
+
+.wrapper .card .input-field input.form-control,
+.wrapper .card .input-field input.form-control:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: black;
+}
+
+.wrapper .card .input-field button.btn-login {
+    color: black;
+    padding: 0rem;
+    padding-right: 0.5rem;
+}
+
+.wrapper .card .input-field button.btn:hover {
+    color: black;
+}
+
+.wrapper .card .input-field button.btn:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.wrapper .card .input-field input::placeholder {
+    color: black;
+}
+.wrapper .card .input-field input::-webkit-autofill {
+    -webkit-text-fill-color: var(--color-main);
+}
+
+
+.wrapper .card .option {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    user-select: none
+}
+
+.wrapper .card .option span.text-light-white:hover {
+    color: black;
+
+}
+
+.wrapper .card .option input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0
+}
+
+.wrapper .card .btn-login.btn-primary {
+    border-radius: 20px;
+    width: 100%;
+    color: white;
+    background: #333;
+    border: none;
+    padding:0.5rem;
+}
+
+.wrapper .card .btn-login.btn-primary:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+
+.wrapper .card .btn-login.btn-primary:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.wrapper .card .text-light-white {
+    color: black;
+}
+.wrapper .card .signup-btn{
+    color: green;
+}
+.wrapper .card .signup-btn:hover{
+    color: white;
+
+}
+
+.wrapper .card .line span.connect {
+    position: absolute;
+    top: -12px;
+    left: 33%;
+    color: #000;
+    padding: 0 0.3rem;
+    z-index: 100;
+    border-radius: 2px;
+    background-color: black;
+}
+
+.wrapper .card .connections a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+@media(max-width: 370px) {
+    .wrapper .card .line:after {
+        left: 27%;
+    }
+}
+
+@media(max-width: 350px) {
+    .wrapper {
+        margin: 10px auto;
+    }
+
+    .wrapper .card {
+        margin: 10px;
+    }
+}
